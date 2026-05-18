@@ -42,12 +42,13 @@ Implemented using function overriding, virtual functions, and function overloadi
 # Class Structure
 
 
-Job
-├── Software
-└── HR
----
+      Job
+       |
+ Software  HR
+
 
 # Example Output 
+
 Company Name: Company Software
 Company Location: Noida
 Software Salary: 3000
@@ -56,7 +57,7 @@ Company Name: Company HR
 Company Location: Noida
 HR Salary: 8000
 
-#Concepts Covered
+# Concepts Covered
 -Abstract Classes
 -Pure Virtual Functions
 -Encapsulation
