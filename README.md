@@ -1,70 +1,25 @@
-# OOPS in C++
+# Corporate Job Management System (OOP in C++)
 
-This project demonstrates all 4 pillars of Object-Oriented Programming (OOPS) using C++ in a simple Job Management System.
-
-## Features
-
-- Abstract base class using pure virtual functions
-- Encapsulation using private members
-- Inheritance using derived job classes
-- Runtime and compile-time polymorphism
-- Salary management system
-- Increment handling
+A comprehensive C++ project designed to demonstrate all **4 Pillars of Object-Oriented Programming (OOP)** alongside advanced architectural concepts like runtime polymorphism, dynamic binding, and constructor chaining.
 
 ---
 
-# 4 Pillars of OOPS
+## 🚀 Features
 
-## 1. Abstraction
-Implemented using pure virtual functions in the `Job` abstract class.
-
-## 2. Encapsulation
-Implemented using private data members and controlled access through methods.
-
-## 3. Inheritance
-Implemented using `Software` and `HR` classes inheriting from the `Job` class.
-
-## 4. Polymorphism
-Implemented using function overriding, virtual functions, and function overloading.
+* **Abstract Interface:** Core architecture enforced via an abstract base class and pure virtual functions.
+* **Data Security:** Strict data hiding through encapsulation and controlled access specifiers.
+* **Extensible Hierarchy:** Role-specific implementation utilizing hierarchical inheritance.
+* **Dual Polymorphism:** Practical application of both compile-time (overloading) and runtime (overriding) polymorphism.
+* **Automated Initialization:** Clean dependency management via structured constructor chaining.
 
 ---
 
-# Technologies Used
+## 🏛️ Class Structure
 
-- C++
-- OOPS Concepts
-- Virtual Functions
-- Function Overloading
-- Inheritance
+The project utilizes an abstract design pattern to segregate generic corporate data from role-specific operations:
 
----
-
-# Class Structure
-
-
-      Job
-       |
- Software  HR
-
-
-# Example Output 
-
-Company Name: Company Software
-Company Location: Noida
-Software Salary: 3000
-
-Company Name: Company HR
-Company Location: Noida
-HR Salary: 8000
-
-# Concepts Covered
--Abstract Classes
--Pure Virtual Functions
--Encapsulation
--Method Overriding
--Method Overloading
--Runtime Polymorphism
--Dynamic Binding
--Constructor Chaining
-
-### Created for learning and practicing OOPS in C++.
+```text
+         [ Job ]            <-- (Abstract Base Class)
+          /   \
+         /     \
+   [Software]  [HR]         <-- (Concrete Derived Classes)
