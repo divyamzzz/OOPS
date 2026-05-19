@@ -120,7 +120,7 @@ int main()
     myJob->viewSalary();
     
     myJobHR->getIncrement(3);
-    
+    myJobHR->viewSalary();
 
     delete myJob;
     delete myJobHR;
